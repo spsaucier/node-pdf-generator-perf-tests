@@ -6,7 +6,7 @@ console.time("pdfgeneration");
 for (i = 1; i < 100; i++) {
 	var doc = new PDFDocument;
 
-	doc.pipe(fs.createWriteStream('pdfkit.pdf'));
+	doc.pipe(fs.createWriteStream('./results/pdfkit' + i + '.pdf'));
 	 
 	doc.fontSize(25)
 		.text('Test');

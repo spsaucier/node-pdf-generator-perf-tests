@@ -6,7 +6,7 @@ console.time("pdfgeneration");
 for (i = 1; i < 100; i++) {
 	// HTML
 	wkhtmltopdf('<h1>Test</h1><p>Hello world</p>')
-		.pipe(fs.createWriteStream('wkhtmltopdf.pdf'));
+		.pipe(fs.createWriteStream('./results/wkhtmltopdf' + i + '.pdf'));
 }
 
 console.timeEnd("pdfgeneration");
