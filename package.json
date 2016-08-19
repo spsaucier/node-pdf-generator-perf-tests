@@ -1,0 +1,16 @@
+{
+  "name": "pdftest",
+  "version": "1.0.0",
+  "description": "Testing Node PDF libraries for performance",
+  "main": "pdfkit.js",
+  "dependencies": {
+    "pdfkit": "^0.7.2",
+    "wkhtmltopdf": "^0.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
