@@ -1,7 +1,22 @@
 # Node PDF Generator Performance Tests
 
-Setup: `npm install`
+Setup:
+* `npm install`
+* Install [wkHTMLtoPDF](http://wkhtmltopdf.org/downloads.html)
+* Install [Prince XML](http://www.princexml.com/download/)
 
-To run:
-* PDFkit (100 files): `node ./pdfkit.js`
-* wkHTMLtoPDF (100 files): `node ./wkhtmltopdf.js`
+To build 50 simple files:
+* [PDFkit](http://pdfkit.org/): `node ./pdfkit.js`
+* [node wkHTMLtoPDF](https://www.npmjs.com/package/wkhtmltopdf): `node ./wkhtmltopdf.js` - Webkit engine
+* [lx-PDF](https://github.com/litixsoft/lx-pdf): `node ./lx-pdf.js` - PDFkit + JSON templates for formatting
+* [Prince](http://www.princexml.com/doc/): `time ./prince.sh`
+* [PDFMake](https://github.com/bpampuch/pdfmake): `node ./pdfmake.js`
+
+In-browser options:
+* [PDFmake](https://github.com/bpampuch/pdfmake) - [playground](http://pdfmake.org/playground.html) - 42ms reported for 1 simple PDF
+* [hPDF](https://github.com/manuels/hpdf.js) - [playground](http://manuels.github.io/hpdf.js/) - 44.5ms reported for 1 simple PDF
+* [jsPDF](https://parall.ax/products/jspdf) - Appears fast, lots of capability
+
+Third-party options:
+* [DocRaptor](http://docraptor.com/) HTML to PDF - Hosted, "99.99% uptime, infinite throughput"
+* [PDF Reactor](http://www.pdfreactor.com/) HTML to PDF - Not hosted, purchase is per-CPU, no simple way to test performance

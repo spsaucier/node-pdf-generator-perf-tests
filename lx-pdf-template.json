@@ -1,0 +1,48 @@
+
+{
+    "name": "Template for Test",
+    "version": "1.0.0",
+    "debug": false,
+    "options": {
+        "pages": [
+            {
+                "layout": {
+                    "size": "A4",
+                    "layout": "portrait",
+                    "margins": {
+                        "top": 0,
+                        "left": 0,
+                        "bottom": 0,
+                        "right": 0
+                    }
+                },
+                "sections": {
+                    "subject": {
+                        "font": {
+                            "size": 24
+                        },
+                        "format": {
+                            "align": "left",
+                            "left": 70,
+                            "top": 295,
+                            "width": 481,
+                            "height": 55
+                        }
+                    },
+                    "content": {
+                        "font": {
+                            "size": 16
+                        },
+                        "format": {
+                            "align": "left",
+                            "left": 70,
+                            "top": 350,
+                            "width": 481,
+                            "height": 320
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

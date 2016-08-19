@@ -3,7 +3,7 @@ var fs = require('fs');
 
 console.time("pdfgeneration");
 
-for (i = 1; i < 100; i++) {
+for (i = 1; i < 50; i++) {
 	var doc = new PDFDocument;
 
 	doc.pipe(fs.createWriteStream('./results/pdfkit' + i + '.pdf'));

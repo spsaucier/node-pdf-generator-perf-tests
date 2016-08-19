@@ -4,6 +4,7 @@
   "description": "Testing Node PDF libraries for performance",
   "main": "pdfkit.js",
   "dependencies": {
+    "lx-pdf": "^0.1.5",
     "pdfkit": "^0.7.2",
     "wkhtmltopdf": "^0.3.3"
   },
