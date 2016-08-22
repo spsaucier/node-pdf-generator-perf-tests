@@ -20,5 +20,5 @@ In-browser options:
 * [jsPDF](https://parall.ax/products/jspdf): Appears fast, lots of capability
 
 Third-party options:
-* [DocRaptor](http://docraptor.com/): HTML to PDF - Hosted, "99.99% uptime, infinite throughput"
+* [DocRaptor](http://docraptor.com/): HTML to PDF - Hosted, "99.99% uptime, infinite throughput" - `node ./docraptor.js`
 * [PDF Reactor](http://www.pdfreactor.com/): HTML to PDF - Not hosted, purchase is per-CPU, no simple way to test performance

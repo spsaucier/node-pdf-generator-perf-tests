@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ./pdfkit.js && node ./lx-pdf.js && node ./wkhtmltopdf.js && time ./prince.sh && . ./venv/bin/activate && time ./weasyprint.sh"
+    "test": "node ./pdfkit.js && node ./lx-pdf.js && node ./wkhtmltopdf.js && time ./prince.sh && . ./venv/bin/activate && time ./weasyprint.sh && node ./docraptor.js"
   },
   "author": "",
   "license": "ISC"
