@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ./pdfkit.js && node ./wkhtmltopdf.js && node ./lx-pdf.js && time ./prince.sh"
+    "test": "node ./pdfkit.js && node ./lx-pdf.js && node ./wkhtmltopdf.js && time ./prince.sh && . ./venv/bin/activate && time ./weasyprint.sh"
   },
   "author": "",
   "license": "ISC"

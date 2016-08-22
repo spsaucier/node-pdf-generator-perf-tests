@@ -4,13 +4,15 @@ Setup:
 * `npm install`
 * Install [wkHTMLtoPDF](http://wkhtmltopdf.org/downloads.html)
 * Install [Prince XML](http://www.princexml.com/download/)
+* Install [WeasyPrint](http://weasyprint.readthedocs.io/en/latest/install.html)
 
 To build 50 simple files:
 * All at once: `node run test`
 * [PDFkit](http://pdfkit.org/): `node ./pdfkit.js`
-* [node wkHTMLtoPDF](https://www.npmjs.com/package/wkhtmltopdf): `node ./wkhtmltopdf.js` - Webkit engine
 * [lx-PDF](https://github.com/litixsoft/lx-pdf): `node ./lx-pdf.js` - PDFkit + JSON templates for formatting
+* [node wkHTMLtoPDF](https://www.npmjs.com/package/wkhtmltopdf): `node ./wkhtmltopdf.js` - Webkit engine
 * [Prince](http://www.princexml.com/doc/): `time ./prince.sh`
+* [WeasyPrint](http://weasyprint.readthedocs.io/en/latest/index.html): `. ./venv/bin/activate && time ./weasyprint.sh`
 <!-- * [PDFMake](https://github.com/bpampuch/pdfmake): `node ./pdfmake.js` -->
 
 In-browser options:
