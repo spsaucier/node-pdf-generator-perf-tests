@@ -1,7 +1,7 @@
 var PDFDocument = require('pdfkit');
 var fs = require('fs');
 
-console.time("pdfgeneration");
+console.time("pdfkit");
 
 for (i = 1; i < 50; i++) {
 	var doc = new PDFDocument;
@@ -16,4 +16,4 @@ for (i = 1; i < 50; i++) {
 	doc.end()
 }
 
-console.timeEnd("pdfgeneration");
+console.timeEnd("pdfkit");

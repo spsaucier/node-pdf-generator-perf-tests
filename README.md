@@ -6,11 +6,12 @@ Setup:
 * Install [Prince XML](http://www.princexml.com/download/)
 
 To build 50 simple files:
+* All at once: `node run test`
 * [PDFkit](http://pdfkit.org/): `node ./pdfkit.js`
 * [node wkHTMLtoPDF](https://www.npmjs.com/package/wkhtmltopdf): `node ./wkhtmltopdf.js` - Webkit engine
 * [lx-PDF](https://github.com/litixsoft/lx-pdf): `node ./lx-pdf.js` - PDFkit + JSON templates for formatting
 * [Prince](http://www.princexml.com/doc/): `time ./prince.sh`
-* [PDFMake](https://github.com/bpampuch/pdfmake): `node ./pdfmake.js`
+<!-- * [PDFMake](https://github.com/bpampuch/pdfmake): `node ./pdfmake.js` -->
 
 In-browser options:
 * [PDFmake](https://github.com/bpampuch/pdfmake) - [playground](http://pdfmake.org/playground.html) - 42ms reported for 1 simple PDF

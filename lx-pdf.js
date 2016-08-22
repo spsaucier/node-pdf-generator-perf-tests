@@ -1,10 +1,10 @@
 var fs = require('fs');
 
-console.time("pdfgeneration");
+console.time("lx-pdf");
 
 for (i = 1; i < 50; i++) {
 	var lxDocument = require('lx-pdf')('lx-pdf-template.json');
-	
+
 	var subject = 'Test';
 	lxDocument.addContent('subject', subject);
 	var text = 'Hello World';
@@ -14,4 +14,4 @@ for (i = 1; i < 50; i++) {
 	lxDocument.save('./results/lx-pdf' + i + '.pdf', function(result) {});
 }
 
-console.timeEnd("pdfgeneration");
+console.timeEnd("lx-pdf");

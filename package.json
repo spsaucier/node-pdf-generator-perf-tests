@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./pdfkit.js && node ./wkhtmltopdf.js && node ./lx-pdf.js && time ./prince.sh"
   },
   "author": "",
   "license": "ISC"

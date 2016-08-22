@@ -1,7 +1,7 @@
 var wkhtmltopdf = require('wkhtmltopdf');
 var fs = require('fs');
 
-console.time("pdfgeneration");
+console.time("wkhtmltopdf");
 
 for (i = 1; i < 50; i++) {
 	// HTML
@@ -9,4 +9,4 @@ for (i = 1; i < 50; i++) {
 		.pipe(fs.createWriteStream('./results/wkhtmltopdf' + i + '.pdf'));
 }
 
-console.timeEnd("pdfgeneration");
+console.timeEnd("wkhtmltopdf");

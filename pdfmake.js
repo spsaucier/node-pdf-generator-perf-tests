@@ -1,7 +1,7 @@
 var PdfPrinter = require('./libs/pdfmake-master/src/printer.js');
 var fs = require('fs');
 
-console.time("pdfgeneration");
+console.time("pdfmake");
 
 for (i = 1; i < 50; i++) {
 	var fonts = {
@@ -12,7 +12,7 @@ for (i = 1; i < 50; i++) {
 			bolditalics: 'fonts/Roboto-Italic.ttf'
 		}
 	};
-	
+
 	var printer = new PdfPrinter(fonts);
 
 	var docDefinition = {
@@ -28,4 +28,4 @@ for (i = 1; i < 50; i++) {
 	});
 }
 
-console.timeEnd("pdfgeneration");
+console.timeEnd("pdfmake");
