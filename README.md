@@ -13,7 +13,6 @@ To build 50 simple files:
 * [node wkHTMLtoPDF](https://www.npmjs.com/package/wkhtmltopdf): `node ./wkhtmltopdf.js` - Webkit engine
 * [Prince](http://www.princexml.com/doc/): `time ./prince.sh`
 * [WeasyPrint](http://weasyprint.readthedocs.io/en/latest/index.html): `. ./venv/bin/activate && time ./weasyprint.sh`
-<!-- * [PDFMake](https://github.com/bpampuch/pdfmake): `node ./pdfmake.js` -->
 
 In-browser options:
 * [PDFmake](https://github.com/bpampuch/pdfmake) - [playground](http://pdfmake.org/playground.html) - 42ms reported for 1 simple PDF
