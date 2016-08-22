@@ -6,6 +6,7 @@
   "dependencies": {
     "lx-pdf": "^0.1.5",
     "pdfkit": "^0.7.2",
+    "restler": "^3.4.0",
     "wkhtmltopdf": "^0.3.3"
   },
   "devDependencies": {},
